@@ -1,11 +1,14 @@
-import './App.scss'
-import Header from "./ui/Header/Header.tsx";
+import './App.module.scss';
+import Header from './ui/Header/Header.tsx';
+import Main from './ui/Main/Main.tsx';
 
 function App() {
-
   return (
-    <Header />
-  )
+    <>
+      <Header />
+      <Main />
+    </>
+  );
 }
 
-export default App
+export default App;
