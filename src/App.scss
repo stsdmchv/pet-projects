@@ -1,0 +1,23 @@
+// Imports
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300,400,600;1,300&family=Cormorant:ital,wght@0,400;1,300&family=IM+Fell+Great+Primer+SC&display=swap');
+
+// Standard css
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.5;
+  font-weight: 300;
+  font-size: 20px;
+  color: #151618;
+}
